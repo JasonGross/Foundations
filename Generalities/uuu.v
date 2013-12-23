@@ -11,7 +11,7 @@ This is the first in the group of files which contain the (current state of) the
 (** Preambule. *)
 
 Global Set Universe Polymorphism.
-Global Set Asymmetric Patterns.
+(* Global Set Asymmetric Patterns. *)
 
 Unset Automatic Introduction.  (** This line has to be removed for the file to compile with Coq8.2 *)
 
@@ -23,17 +23,17 @@ Inductive empty: UUU := .
 Inductive unit : UUU :=  tt : unit.
 Inductive bool : UUU :=  true : bool | false : bool.
 
-Inductive identity (A : Type) (a : A) : A -> Type :=
-  identity_refl : identity _ a a.
+(* Inductive identity {A : Type} (a : A) : A -> Type := *)
+(*   identity_refl : identity a a. *)
 
-Hint Resolve identity_refl: core.
+(* Hint Resolve identity_refl: core. *)
 
-Arguments identity {A} _ _.
-Arguments identity_refl {A a} , [A] a.
+(* Arguments identity {A} _ _. *)
+(* Arguments identity_refl {A a} , [A] a. *)
 
-Arguments identity_ind [A] a P f y i.
-Arguments identity_rec [A] a P f y i.
-Arguments identity_rect [A] a P f y i.
+(* Arguments identity_ind [A] a P f y i. *)
+(* Arguments identity_rec [A] a P f y i. *)
+(* Arguments identity_rect [A] a P f y i. *)
 
 Notation paths := identity .
 Notation idpath := identity_refl .
@@ -54,8 +54,8 @@ Notation ii2fun := inr .
 
 Notation ii1 := inl .
 Notation ii2 := inr .
-Arguments ii1 [ A B ] a.
-Arguments ii2 [ A B ] b.
+Implicit Arguments ii1 [ A B ] .
+Implicit Arguments ii2 [ A B ] .
 
 
 (** Dpendent sums. 
