@@ -1139,7 +1139,7 @@ O => 1 |
 S m' => n * ( natpower n m' ) end .
 
 
-(** *** Fcatorial on [ nat ] *)
+(** *** Factorial on [ nat ] *)
 
 Fixpoint factorial ( n : nat ) := match n with
 0 => 1 |
