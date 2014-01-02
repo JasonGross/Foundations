@@ -8,7 +8,7 @@ While it is possible to write a part of this file in a form which does not requi
 
 
 
-(** ** Preambule *)
+(** ** Preamble *)
 
 (** Settings *)
 
@@ -16,8 +16,6 @@ Unset Automatic Introduction. (** This line has to be removed for the file to co
 
 
 (** Imports *)
-
-(* Add LoadPath ".." as Foundations. *)
 
 Require Export Foundations.hlevel1.hProp .
 

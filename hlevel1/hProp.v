@@ -17,7 +17,7 @@ One can achieve similar results with a combination of usual axioms which imitate
 
 
 
-(** ** Preambule *)
+(** ** Preamble *)
 
 (** Settings *)
 
@@ -25,15 +25,13 @@ Unset Automatic Introduction. (* This line has to be removed for the file to com
 
 (** Imports *)
 
-(* Add LoadPath ".." as Foundations. *)
-
 Require Export Foundations.Generalities.uu0 . 
 
 (** Universe structure *)
 
 (* Definition UU0 := UU . *)
 
-(* end of " Preambule " . *)
+(* end of " Preamble " . *)
 
 
 (** ** To upstream files *)

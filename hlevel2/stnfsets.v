@@ -5,7 +5,7 @@ This file contains main constructions related to the standard finite sets define
 
 
 
-(** ** Preambule *)
+(** ** Preamble *)
 
 (** Settings *)
 
@@ -14,8 +14,6 @@ Unset Automatic Introduction. (* This line has to be removed for the file to com
 
 
 (** Imports. *)
-
-(* Add LoadPath ".." as Foundations. *)
 
 Require Export Foundations.hlevel2.hnat .
 

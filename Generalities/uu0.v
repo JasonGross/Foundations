@@ -7,7 +7,7 @@ This file contains results which form a basis of the univalent approach and whic
 
 
 
-(** ** Preambule *)
+(** ** Preamble *)
 
 (** Settings *)
 
@@ -15,15 +15,13 @@ Unset Automatic Introduction. (* This line has to be removed for the file to com
 
 (** Imports *)
 
-(* Add LoadPath ".." as Foundations. *)
-
 Require Export Foundations.Generalities.uuu.
 
 (** Universe structure *)
 
 Definition UU := Type .
 
-(* end of "Preambule". *)
+(* end of "Preamble". *)
 
 
 

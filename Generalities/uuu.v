@@ -8,7 +8,7 @@ This is the first in the group of files which contain the (current state of) the
 
 
 
-(** Preambule. *)
+(** Preamble. *)
 
 Global Set Universe Polymorphism.
 (* Global Set Asymmetric Patterns. *)

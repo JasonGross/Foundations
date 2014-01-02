@@ -7,7 +7,7 @@ In this file we introduce the type [ hz ] of integers defined as the quotient se
 
 
 
-(** ** Preambule *)
+(** ** Preamble *)
 
 (** Settings *)
 
@@ -15,8 +15,6 @@ Unset Automatic Introduction. (** This line has to be removed for the file to co
 
 
 (** Imports *)
-
-(* Add LoadPath ".." as Foundations. *)
 
 Require Export Foundations.hlevel2.hnat .
 Require Export Foundations.hlevel2.algebra1d .

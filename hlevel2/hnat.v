@@ -7,7 +7,7 @@ This file contains the formulations and proofs of general properties of natural 
 
 
 
-(** ** Preambule *)
+(** ** Preamble *)
 
 (** Settings *)
 
@@ -16,8 +16,6 @@ Unset Automatic Introduction. (* This line has to be removed for the file to com
 
 
 (** Imports. *)
-
-(* Add LoadPath ".." as Foundations. *)
 
 Require Export Foundations.hlevel2.algebra1d . 
 

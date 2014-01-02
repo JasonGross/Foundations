@@ -8,7 +8,7 @@ This file contains the definition and main properties of finite sets. At the end
 
 
 
-(** ** Preambule *)
+(** ** Preamble *)
 
 (** Settings *)
 
@@ -17,8 +17,6 @@ Unset Automatic Introduction. (* This line has to be removed for the file to com
 
 
 (** Imports. *)
-
-(* Add LoadPath ".." as Foundations. *)
 
 Require Export Foundations.hlevel1.hProp .
 Require Export Foundations.hlevel2.stnfsets .
