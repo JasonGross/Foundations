@@ -859,12 +859,6 @@ Eval lazy in  ( hzabsval ( hzmult ( natnattohz 20 50 ) ( natnattohz 30 20 ) ) ) 
 
 
 
-   
-
-
-
-
-
 
 
 (* End of the file hz.v *)

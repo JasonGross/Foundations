@@ -223,6 +223,8 @@ Proof . intros .  intros x1 x2 .  destruct ( is x1 x2 ) as [ r | nr ] . intro . 
 Lemma isantisymmnegtoiscoantisymm { X : UU } { R : hrel X } ( isdr : isdecrel R ) ( isr : isantisymmneg R ) : iscoantisymm R . 
 Proof . intros . intros x1 x2 nrx12 . destruct ( isdr x2 x1 ) as [ r | nr ] . apply ( ii1 r ) .  apply ii2 . apply ( isr _ _ nrx12 nr ) .  Defined . 
 
+Lemma rtoneq { X : UU } { R : hrel X } ( is : isirrefl R ) { a b : X } ( r : R a b ) : neg ( paths a b ) .
+Proof . intros . intro e . rewrite e in r . apply ( is b r ) . Defined .  
 
 
 (** *** Standard properties of relations and logical equivalences *)

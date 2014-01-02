@@ -24,7 +24,6 @@ Require Export Foundations.hlevel2.hSet .
 
 
 
-
 (** ** Sets with a given number of elements. *)
 
 (** *** Structure of a set with [ n ] elements on [ X ] defined as a term in [ weq ( stn n ) X ]  *)
@@ -260,7 +259,7 @@ Eval compute in fincard (isfinitebool).
 
 
 
-Eval lazy in fincard (isfinitecompl  true isfinitebool).
+Eval compute in fincard (isfinitecompl  true isfinitebool).
 
 Eval compute in fincard (isfinitedirprod  isfinitebool isfinitebool).
 

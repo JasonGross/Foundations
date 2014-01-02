@@ -18,10 +18,6 @@ Require Export Foundations.hlevel2.algebra1c .
 
 (** To upstream files *)
 
-(** To hSet *)
-
-Lemma rtoneq { X : UU } { R : hrel X } ( is : isirrefl R ) { a b : X } ( r : R a b ) : neg ( paths a b ) .
-Proof . intros . intro e . rewrite e in r . apply ( is b r ) . Defined .  
 
 (** To one binary operation *)
 
